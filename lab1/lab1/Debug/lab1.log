@@ -1,0 +1,6 @@
+﻿  lab1.cpp
+C:\Users\EDWRD\source\repos\lab1\lab1\lab1.cpp(11,25): error C2039: "to_string": не является членом "std".
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\locale(25): message : см. объявление "std"
+C:\Users\EDWRD\source\repos\lab1\lab1\lab1.cpp(11,35): error C2065: i: необъявленный идентификатор
+C:\Users\EDWRD\source\repos\lab1\lab1\lab1.cpp(11,34): error C3861: to_string: идентификатор не найден
+C:\Users\EDWRD\source\repos\lab1\lab1\lab1.cpp(13,2): error C2059: синтаксическая ошибка: }
