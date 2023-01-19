@@ -1,0 +1,5 @@
+﻿  221_352_Biboev.cpp
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\Game_Biboev.h(1,10): fatal  error C1014: слишком много включаемых файлов: глубина = 1024
+  Biboev_exam.cpp
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\Biboev_exam.cpp(1,10): fatal  error C1083: Не удается открыть файл включение: Game_.h: No such file or directory,
+  Создание кода...
