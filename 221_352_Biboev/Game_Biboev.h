@@ -2,6 +2,10 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <cstdlib>
+#include <algorithm>
+#include <fstream>
+
 
 // Характеристики игрока
 typedef struct Gamer {
@@ -12,10 +16,11 @@ typedef struct Gamer {
 	int cube_1;
 	int cube_2;
 	int cube_3;
-	bool has_additional_cude; // доп. кубик
-	int additional_cude; // доп. кубик
+	bool has_additional_cube; // доп. кубик
+	int additional_cube; // доп. кубик
 	int building_tokens; // жетоны зданий
 	bool has_adviser; // советник
+	bool plus_two; // советник
 	int military_register; // значение воинского реестра
 	int victory_points; // победные очки
 	std::vector<std::string> buildings; // вектор построек
@@ -35,8 +40,7 @@ typedef struct Adviser {
 
 class Game_Biboev
 {
-	//private:
-public:
+private:
 	std::vector<Gamer> gamers;
 	std::vector<Adviser> advisers;
 	int year;
@@ -53,8 +57,14 @@ public:
 	void phase5();
 	void phase7();
 	void phase8();
+
 	void phase246();
 	void phase246_bones();
 	void phase246_advisor();
+
+	bool load_game(std::string filename);
+	bool save_game(std::string filename);
 };
 
+void advisor_help(std::string advisor_name, Gamer& gamer);
+void building(std::string building_name, Gamer& gamer);

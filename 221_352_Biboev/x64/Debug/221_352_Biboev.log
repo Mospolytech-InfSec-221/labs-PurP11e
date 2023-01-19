@@ -1,10 +1,16 @@
 ﻿  221_352_Biboev.cpp
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(23,19): error C2039: "additional_cude": не является членом "Gamer".
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\Game_Biboev.h(11,16): message : см. объявление "Gamer"
 C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(92,55): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
 C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(97,39): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(110,69): error C2039: "additional_cude": не является членом "Gamer".
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\Game_Biboev.h(11,16): message : см. объявление "Gamer"
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(132,74): error C2039: "additional_cude": не является членом "Gamer".
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\Game_Biboev.h(11,16): message : см. объявление "Gamer"
 C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(160,54): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
 C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(166,38): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
 C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(192,54): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
 C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(197,38): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
   Biboev_exam.cpp
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\Biboev_exam.cpp(1,10): fatal  error C1083: Не удается открыть файл включение: Game_Biboev(2).h: No such file or directory,
   Создание кода...
-  221_352_Biboev.vcxproj -> C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\x64\Debug\221_352_Biboev.exe
