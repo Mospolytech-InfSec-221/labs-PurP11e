@@ -1,0 +1,10 @@
+﻿  221_352_Biboev.cpp
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(92,55): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(97,39): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(160,54): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(166,38): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(192,54): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\221_352_Biboev\221_352_Biboev.cpp(197,38): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  Biboev_exam.cpp
+  Создание кода...
+  221_352_Biboev.vcxproj -> C:\Users\Smuzzzi\Desktop\221_352_Biboev\221_352_Biboev\x64\Debug\221_352_Biboev.exe
