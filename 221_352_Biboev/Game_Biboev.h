@@ -3,30 +3,30 @@
 #include <vector>
 #include <string>
 
-using namespace std;
-
 // Характеристики игрока
 typedef struct Gamer {
-	string name;
+	std::string name;
 	int gold;
 	int wood;
 	int stone;
 	int cube_1;
 	int cube_2;
 	int cube_3;
+	bool has_additional_cude; // доп. кубик
 	int additional_cude; // доп. кубик
+	int building_tokens; // жетоны зданий
 	bool has_adviser; // советник
 	int military_register; // значение воинского реестра
 	int victory_points; // победные очки
-	vector<string> buildings; // вектор построек
+	std::vector<std::string> buildings; // вектор построек
 
 } Gamer;
 
 // советник и занявший его игрок
 typedef struct Adviser {
-	string adviser_name;
-	string gamer_name;
-	Adviser(string a_name, string g_name)
+	std::string adviser_name;
+	std::string gamer_name;
+	Adviser(std::string a_name, std::string g_name)
 	{
 		this->adviser_name = a_name;
 		this->gamer_name = g_name;
@@ -37,15 +37,24 @@ class Game_Biboev
 {
 	//private:
 public:
-	vector<Gamer> gamers;
-	vector<Adviser> advisers;
+	std::vector<Gamer> gamers;
+	std::vector<Adviser> advisers;
 	int year;
 	int phase;
-	string enemy;
+	std::string enemy;
 public:
-	Game();
-	~Game();
-	Game(int gamers_count);
-	Game(const Game&);
+	Game_Biboev();
+	~Game_Biboev();
+	Game_Biboev(int gamers_count);
+	Game_Biboev(const Game_Biboev&);
 
+	void phase1();
+	void phase3();
+	void phase5();
+	void phase7();
+	void phase8();
+	void phase246();
+	void phase246_bones();
+	void phase246_advisor();
 };
+

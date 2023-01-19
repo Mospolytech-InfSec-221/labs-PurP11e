@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{1e55904b-cb95-4c95-9cb8-97f0054dcdc0}</ProjectGuid>
+    <ProjectGuid>{fe6b783a-80f7-4894-8fa1-8d2e9d94af64}</ProjectGuid>
     <RootNamespace>My221352Biboev</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
