@@ -1,0 +1,8 @@
+﻿  lab4.2.cpp
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\lab4.2\lab4.2\lab4.2.cpp(7,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\lab4.2\lab4.2\lab4.2.cpp(14,43): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\lab4.2\lab4.2\lab4.2.cpp(15,45): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\lab4.2\lab4.2\lab4.2.cpp(16,77): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\lab4.2\lab4.2\lab4.2.cpp(23,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\Smuzzzi\Desktop\221_352_Biboev\lab4.2\lab4.2\lab4.2.cpp(41,44): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+  lab4.2.vcxproj -> C:\Users\Smuzzzi\Desktop\221_352_Biboev\lab4.2\x64\Debug\lab4.2.exe
